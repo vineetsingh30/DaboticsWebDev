@@ -1,0 +1,37 @@
+body {
+    font-family: 'Candara';
+    text-align: center;
+    margin: 50px;
+    background-image: url(https://media.istockphoto.com/id/494094966/vector/question-mark-3d-seamless-wallpaper-pattern.jpg?s=612x612&w=0&k=20&c=u56aWdaxkF1T4k745zLP3egh7scxb4FjwaNpZpiLA44=);
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.option {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+#next-button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#next-button:hover {
+    background-color: #45a049;
+}
